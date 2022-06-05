@@ -10,20 +10,12 @@ html body {
 }
 
 
-.nav {
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: lighter;
-    border-bottom: 1px solid black;
-}
-
 .nav ul {
     margin: 0;
 }
 
 .nav li {
     display: inline;
-    padding: 0 4%;
 } 
 
 .nav a {
@@ -35,6 +27,17 @@ html body {
 
 .nav a:hover {
     background-color: rgba(255,255,255,0.3);
+}
+
+.header-nav {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    border-bottom: 1px solid black;
+}
+
+.header-nav li {
+    padding: 0 4%;
 }
 
 .header {
@@ -54,7 +57,54 @@ html body {
     font-size: 6em;
 }
 
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.body-header {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-header {
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.subsection-header {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
 .footer {
     background-image: url("images/nav-background.jfif");
     background-size: cover;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container ul {
+    flex-grow: 1;
+    text-align: right;
+    padding-left: 0;
+}
+
+.footer-nav li {
+    padding: 0 1em;
+    color: #333;
 }

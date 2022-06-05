@@ -1,0 +1,64 @@
+.course-schedules-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*border: 3px solid red;*/
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+    
+}
+
+
+
+.term-name {
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 0px;
+    /*border: 3px solid yellow;*/
+}
+
+.term {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    /*border: 3px solid green;*/
+}
+
+
+.term-courses {
+    width: 30%;
+}
+
+.term-schedule {
+    width: 70%;
+    padding: 1em;
+}
+
+.course-row {
+    display: flex;
+    padding: 0.5em 0;
+}
+
+.course-column-headers {
+    border-bottom: 1px solid black;
+}
+
+.course-column {
+    margin: 0 0.5em;
+}
+
+.course-name {
+    width: 50%;
+}
+
+.course-grade {
+    width: 25%;
+}
+
+.course-credit {
+    width: 25%;
+}
