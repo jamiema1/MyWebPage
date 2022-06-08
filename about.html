@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Jamie's WebPage | Home</title>
+        <title>Jamie's WebPage | About</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <nav class="nav">
+        <header class="header">
+            <nav class="nav header-nav">
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="education.html">EDUCATION</a></li>
-                    <li><a href="hobbies.html">INTERESTS AND HOBBIES</a></li>
-                    <li><a href="extra.html">EXTRACURRICULARS</a></li>
-                    <li><a href="coding.html">CODING PROJECTS</a></li>
+                    <div>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="education.html">EDUCATION</a></li>
+                        <li><a href="hobbies.html">HOBBIES</a></li>
+                    </div>
+                    <div>    
+                        <li><a href="extra.html">EXTRACURRICULARS</a></li>
+                        <li><a href="coding.html">CODING PROJECTS</a></li>
+                    </div>
                 </ul>
             </nav>
-            <hr>
-            <h1>Jamie Ma</h1>
+            <h1 class="title-name header-name">Jamie Ma</h1>
         </header>
-        <hr>
         <section>
-            <h2>HOME</h2>
-            <p>Welcome to my webpage!</p>
+            <div class="container">
+                <h2 class="body-header">ABOUT</h2>
+                <p>My name is Jamie Ma. I am 18 years old and I am entering my second year in the faculty of Science at UBC. I plan on specializing with a combined major in Computer Science and Mathematics. </p>
+            </div>
         </section>
-        <hr>
-        <footer>
-            <h3>Jamie Ma</h3>
-            <ul>
-                <li>EMAIL</li>
-                <li>PHONE</li>
-            </ul>
+        <footer class="footer">
+            <div class="container footer-container">
+                <h3 class="title-name">Jamie Ma</h3>
+                <nav class="nav footer-nav">
+                    <ul>
+                        <li>EMAIL: jkmm.1024@gmail.com</li>
+                        <li>PHONE: 778-772-1033</li>
+                    </ul>
+                </nav>
+            </div>
         </footer>
     </body>
 </html>

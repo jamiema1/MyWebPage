@@ -1,36 +1,72 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Jamie's WebPage | Home</title>
+        <title>Jamie's WebPage | Coding</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="coding-styles.css">
     </head>
     <body>
-        <header>
-            <nav class="nav">
+        <header class="header">
+            <nav class="nav header-nav">
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="education.html">EDUCATION</a></li>
-                    <li><a href="hobbies.html">INTERESTS AND HOBBIES</a></li>
-                    <li><a href="extra.html">EXTRACURRICULARS</a></li>
-                    <li><a href="coding.html">CODING PROJECTS</a></li>
+                    <div>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="education.html">EDUCATION</a></li>
+                        <li><a href="hobbies.html">HOBBIES</a></li>
+                    </div>
+                    <div>    
+                        <li><a href="extra.html">EXTRACURRICULARS</a></li>
+                        <li><a href="coding.html">CODING</a></li>
+                    </div>
                 </ul>
             </nav>
-            <hr>
-            <h1>Jamie Ma</h1>
+            <h1 class="title-name header-name">Jamie Ma</h1>
         </header>
-        <hr>
         <section>
-            <h2>HOME</h2>
-            <p>Welcome to my webpage!</p>
+            <div class="container">
+                <h2 class="body-header">CODING</h2>
+                <h3>LANGUAGES</h3>
+                <ul>
+                    <li>C++</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript**</li>
+                    <li>Java**</li>
+                    <li>UBC Teaching Languages (BSL/ISL)</li>
+                </ul>
+                <h4>2019-2020</h4>
+                <p>The first coding language that I learned is C++. I began learning C++ in 2019 as a hobby outside of school because I wanted to learn how to make games, specifically a game that modelled a Baseball Game Simulator that my dad invented for my brother and I to play. This game had many of the same aspects of a real baseball game and used the stats on TOPPS baseball trading cards to determine the results of any interactions in the game, such as an atbat between a pitcher and batter. With that goal in mind, I set out on my journey to learn how to code in C++.</p>
+                <p> In the beginning, I tried to learn by watching and following along with <a href="https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&ab_channel=TheCherno" target="_blank">The Cherno's YouTube videos</a>, but many of the concepts were too complex for me at the time. As a result, I primarily learned through trial and error and by looking up anything that I didn't know along the way.  Obviously, this was not the best or most efficient way to learn, but at the time it worked and allowed me to write my first lines of code. Eventually, I tried to tackle a problem way too advanced for me at the time, 2D graphics in OpenGL, so I got stuck with my C++ coding and took a break from coding for a while.</p>
+                <h4>2021</h4>
+                <p>During my first term at UBC in the fall of 2021, I took my first computer science / coding course, CPSC 110. In that course, I learned a lot of the fundamentals of coding that are transferable to all coding languages such as style, data definitions, functions, and code testing. After completing this course, I had a renewed passion to code again, so I continued my journey with C++, but this time learning from the ground up through a website called <a href="https://www.learncpp.com/" target="_blank">Learn C++</a> as well as through The Cherno's videos mentioned earlier. This time, the learning went much smoother and I was finally able to complete the Baseball Game Simulator that I had begun working on 3 years ago. </p>
+                <h4>2022</h4>
+                After completing the baseball game in early 2022, I started working on other small projects such as Snake, Connect Four and a Typewriter. 
+                <p><a href="https://github.com/jamiema1" target="_blank">GitHub Account</a></p>
+                <h3>PROJECTS</h3>
+                <ul>
+                    <li>Snake</li>
+                    <li>Connect Four</li>
+                    <li>Tic-Tac-Toe</li>
+                    <li>Baseball Game</li>
+                    <li>TypeWriter</li>
+                    <!--<p>This typewrite uses OpenGL to render text composed of characters that I designed myself.</p>-->
+                    <li>Pong</li>
+                    <li>Simon Says Light Game</li>
+                    <li>Platformer**</li>
+                </ul>
+            </div>
         </section>
-        <hr>
-        <footer>
-            <h3>Jamie Ma</h3>
-            <ul>
-                <li>EMAIL</li>
-                <li>PHONE</li>
-            </ul>
+        <footer class="footer">
+            <div class="container footer-container">
+                <h3 class="title-name">Jamie Ma</h3>
+                <nav class="nav footer-nav">
+                    <ul>
+                        <li>EMAIL: jkmm.1024@gmail.com</li>
+                        <li>PHONE: 778-772-1033</li>
+                    </ul>
+                </nav>
+            </div>
         </footer>
     </body>
 </html>
